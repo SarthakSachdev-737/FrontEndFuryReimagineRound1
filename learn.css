@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+.container {
+  height: 100%;
+  width: 100%;
+}
+#image-box {
+  height: 90vb;
+  width: 100%;
+  display: flex;
+}
+#text {
+  height: 90%;
+  width: 60%;
+  background-image: url("./nvidia hackathon/gen-ai-solution-bb460_420-p@2x.jpg");
+  background-position: center;
+}
+#image {
+  height: 90%;
+  width: 50%;
+}
+#image img {
+  height: 100%;
+  width: 100%;
+}
+#text h1 {
+  padding-left: 40px;
+  padding-top: 20px;
+  font-size: 70px;
+  font-weight: 700;
+}
+#text span {
+  color: chartreuse;
+}
+#text h2 {
+  padding-left: 40px;
+  padding-top: 20px;
+  font-size: 30px;
+  width: 458px;
+  height: 142px;
+}
+#text button {
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 800;
+  background-color: #aaff00a1;
+  font-size: 18px;
+  padding: 20px 30px;
+}
+#text #button {
+  padding-left: 40px;
+}
+footer {
+  height: fit-content;
+  width: 100%;
+}
+#community {
+  display: flex;
+}
+#products {
+  height: 100%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+#support {
+  color: #a8ff00;
+  padding: 10px 50px;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+#products hr {
+  border: 1px solid gray;
+  margin-left: 25px;
+}
+
+#products ul {
+  cursor: pointer;
+  color: #c6c6c6;
+  list-style: none;
+  padding-top: 2px;
+  padding-left: 25px;
+  font-size: 15px;
+}
+#products ul li:hover {
+  color: white;
+}
+#lists {
+  display: flex;
+  justify-content: space-between;
+}
+#signup {
+  padding: 45px 0px;
+  height: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#signup span {
+  color: chartreuse;
+}
+#signup button {
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 800;
+  background-color: #aaff00a1;
+  font-size: 18px;
+  padding: 20px 30px;
+}
+
+#signup #button {
+  margin-top: 20px;
+}
+
+#copyright {
+  color: #a7a7a7;
+  font-family: sans-serif;
+  font-size: 13px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+#copyright ul {
+  cursor: pointer;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+#left {
+  cursor: pointer;
+}
+#left:hover {
+  color: white;
+}
+#copyright ul li:hover {
+  color: white;
+}
+
+/* Media Queries for phones */
+@media only screen and (max-width: 600px) {
+  body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  #image-box {
+    height: 100vb;
+    width: 100vh;
+  }
+  #text {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80%;
+  }
+  #text h1 {
+    font-size: 40px;
+  }
+  #text h2 {
+    font-size: 40px;
+    width: 400px;
+  }
+  #text #button {
+    margin-top: 50px;
+  }
+  #community {
+    display: flex;
+    width: 100vb;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  #signup{
+    font-size: 25px;
+    padding-left: 20px;
+    width: fit-content;
+  }
+  #products{
+    width: 100vb;
+  }
+  #support{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+  }
+  hr{
+    width: 100%;
+    margin: 0px 0px;
+  }
+  #lists{
+    display: flex;
+    justify-content: space-between;
+    width: 100vb;
+  }
+  #hr{
+    margin-top: 30px;
+    width: 110vb;
+  }
+  #copyright{
+    margin-left: 20px;
+    width: 100vb;
+    padding: 10px 10px;
+  }
+}
+
+/* Media Queries for tablets */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    body {
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+      }
+
+      #image-box {
+        height: 100vb;
+        width: 100vh;
+      }
+      #image-box img{
+        width: 70vh;
+      }
+      #text {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          width: 80%;
+        }
+        #text h1 {
+          margin-top: 100px;
+          margin-left: 40px;
+        font-size: 70px;
+      }
+      #text h2 {
+        font-size: 60px;
+        margin-left: 40px;
+        width: 450px;
+      }
+      #text #button {
+        margin-top: 250px;
+        margin-left: 40px;
+      }
+      footer{
+        width: 100%;
+        border: 2px solid white;
+      }
+      #community {
+        display: flex;
+        margin: 0px 0px;
+        padding: 0px 0px;
+      }
+      #products{
+        width: 70%;
+        display: flex;
+      }
+      #support{
+        font-size: 15px;
+        width: 100%;
+        display: flex;
+        padding-left: 20px;
+        gap: 10px;
+        justify-content: space-between;
+      }
+      #signup{
+        font-size: 15px;
+        padding-left: 20px;
+        width: fit-content;
+      }
+      #signup button{
+        padding: 10px 20px;
+      }
+}
