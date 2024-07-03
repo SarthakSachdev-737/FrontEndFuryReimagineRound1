@@ -11,7 +11,7 @@ body {
   color: white;
 }
 
-#nav {
+#nav-home {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,14 +21,14 @@ body {
   z-index: 50;
   padding: 4px 30px;
 }
-#nav img {
+#nav-home img {
   height: 30px;
   width: 150px;
 }
-#icons {
+#icons-home {
   display: flex;
 }
-ul {
+.ul-home {
   display: flex;
   align-items: center;
   color: white;
@@ -37,11 +37,11 @@ ul {
   font-size: 15px;
   cursor: pointer;
 }
-#support ul {
+#support-home .ul-home {
   gap: 50px;
 }
-#support ul li:hover,
-#info ul li:hover {
+#support-home .ul-home li:hover,
+#info-home .ul-home li:hover {
   text-decoration: underline;
   text-decoration-color: chartreuse;
   text-decoration-thickness: 3px;
@@ -49,25 +49,25 @@ ul {
   color: white;
 }
 
-#info ul li:not(:hover) {
+#info-home .ul-home li:not(:hover) {
   color: gray;
 }
-#menu {
+#menu-home {
   display: none;
 }
-#hero {
+#hero-home {
   position: relative;
   z-index: 0;
   height: 100%;
   width: 100%;
+}
+#hero-home img {
+  height: 680.6px;
+  width: 100%;
   object-fit: cover;
 }
-#hero img {
-  height: 546.6px;
-  width: 100%;
-}
 
-#text {
+#text-home {
   z-index: 10;
   position: absolute;
   top: 17%;
@@ -76,18 +76,18 @@ ul {
   font-size: 30px;
   width: 280px;
 }
-#text span {
+#text-home span {
   color: chartreuse;
 }
 
-p {
+#p-home {
   position: absolute;
   font-size: 20px;
   top: 62%;
   z-index: 10;
   left: 7%;
 }
-#button {
+#button-home {
   position: absolute;
   top: 70%;
   left: 7%;
@@ -105,23 +105,23 @@ p {
 
 /* Media Queries for phones */
 @media only screen and (max-width: 600px) {
-  #globe {
+  #globe-home {
     display: none;
   }
-  #menu {
+  #menu-home {
     display: contents;
   }
-  #hero img {
+  #hero-home img {
     margin-left: 0;
     height: 100%;
     width: 100%;
   }
 
-  #info,
-  #support {
+  #info-home,
+  #support-home {
     display: none;
   }
-  #text {
+  #text-home {
     font-size: 15px;
     top: 0;
     left: 0;
@@ -129,10 +129,10 @@ p {
     text-align: left;
     padding-left: 20px;
   }
-  p {
+  #p-home {
     display: none;
   }
-  #button {
+  #button-home {
     top: 80%;
     padding: 0;
     left: 30%;
@@ -145,31 +145,31 @@ p {
 
 /* Media Queries for tablets */
 @media only screen and (min-width: 600px) and (max-width: 900px) {
-  #hero img {
+  #hero-home img {
     margin-left: 0;
     height: 100%;
     width: 100%;
   }
-  #support {
+  #support-home {
     display: none;
   }
-  #globe {
+  #globe-home {
     display: none;
   }
-  #menu {
+  #menu-home {
     display: contents;
   }
-  #text {
+  #text-home {
     top: 14%;
     left: 5%;
     height: fit-content;
   }
-  p {
+  #p-home {
     margin-top: 10px;
     left: 5%;
     width: 250px;
   }
-  #button {
+  #button-home {
     top: 80%;
     left: 5%;
   }

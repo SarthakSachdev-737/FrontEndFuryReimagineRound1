@@ -1,48 +1,48 @@
 var timeline = gsap.timeline();
 
-timeline.from("#nav", {
+timeline.from("#nav-home", {
   opacity: 0,
   duration: 0.1,
   y: -50,
 });
-timeline.from("#logo", {
+timeline.from("#logo-home", {
   opacity: 0,
   duration: 1,
   y: -50,
 });
-gsap.from("#info ul li", {
+gsap.from("#info-home .ul-home li", {
   opacity: 0,
   duration: 1,
   stagger: 0.5,
 });
-gsap.from("#support ul li", {
+gsap.from("#support-home .ul-home li", {
   opacity: 0,
   duration: 1,
   stagger: 0.5,
 });
-gsap.from("#icons ul li", {
+gsap.from("#icons-home .ul-home li", {
     opacity: 0,
     duration: 1,
     stagger: 0.5,
   });
-timeline.from("#hero img ", {
+timeline.from("#hero-home img ", {
   x: -1000,
   duration: 1,
   opacity: 0,
   ease: "power2.out",
 });
 
-timeline.from("#text", {
+timeline.from("#text-home", {
   opacity: 0,
   y: -30,
   duration: 0.8,
 });
-timeline.from("p", {
+timeline.from("#p-home", {
   opacity: 0,
   y: 30,
   duration: 0.5,
 });
-timeline.from("#button", {
+timeline.from("#button-home", {
   opacity: 0,
   y: 30,
   duration: 0.5,
