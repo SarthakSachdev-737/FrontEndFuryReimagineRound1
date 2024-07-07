@@ -870,10 +870,8 @@ body {
     height: fit-content;
   }
   .shopnow-container h1 {
-    font-size: 32.65px;
-    width: 78px;
-    height: 96px;
-    line-height: 48px;
+    font-size: 50px;
+    width: 70%;
   }
   .shopnow-content {
     flex-direction: column-reverse;
@@ -888,7 +886,8 @@ body {
     justify-content: space-evenly;
   }
   .left-top {
-    justify-content: space-around;
+    margin: auto;
+    height: 200px;
   }
   .shopnow-right {
     border: 3px solid #818181;
@@ -920,6 +919,7 @@ body {
   .right-text p {
     font-size: 9.49px;
     width: 262px;
+    height: fit-content;
   }
   .right-button {
     margin-top: 10px;
@@ -931,8 +931,10 @@ body {
   }
   .right-button button {
     padding: 2px 5px;
-    font-size: 5.82px;
+    font-size: 12px;
     border-radius: 8.18px;
+    height: 30px;
+    width: 120px;
   }
   .right-buy {
     width: 74.97px;
@@ -944,7 +946,7 @@ body {
   }
   .top-one {
     border: 3px solid #818181;
-    height: 150.62px;
+    height: 100%;
     width: 150.62px;
   }
   .one-img,
@@ -958,11 +960,11 @@ body {
   }
   .one-text h5,
   .two-text h5 {
-    font-size: 5.58px;
+    font-size: 7px;
   }
   .one-text h1,
   .two-text h1 {
-    font-size: 14.88px;
+    font-size: 18px;
     height: 22px;
     display: flex;
     align-items: center;
@@ -971,25 +973,28 @@ body {
   .one-text p,
   .two-text p {
     width: 130px;
-    font-size: 4.84px;
+    font-size: 9px;
   }
   .one-button {
     margin-top: 0px;
   }
   .one-button button {
     gap: 1px;
-    padding: 2px 3px;
-    border-radius: 8.18px;
-    font-size: 3.03px;
-    margin-top: 3px;
+        padding: 2px 3px;
+        border-radius: 8.18px;
+        font-size: 8px;
+        margin-top: 3px;
+        height: 20px;
+        width: 90px;
   }
   .one-button img {
-    height: 3.03px;
+    height: 9px;
+    margin-left: 2px;
   }
   .one-buy {
     position: absolute;
     right: 7px;
-    top: 50%;
+    top: 30%;
     width: 37.94px;
     height: 37.94px;
   }
@@ -1003,17 +1008,17 @@ body {
   .top-two {
     border: 3px solid #818181;
     width: 150.42px;
-    height: 150.42px;
+    height: 100%;
   }
   .two-text {
     margin-top: 0px;
   }
   .left-bottom {
     border: 3px solid #818181;
-    margin-top: 50px;
     width: 370.71px;
     height: 102.86px;
     margin-left: 30px;
+    padding: 20px;
   }
   .bottom-text {
     padding-top: 15px;
@@ -1044,7 +1049,7 @@ body {
   .bottom-buy {
     position: absolute;
     bottom: 7%;
-    left: 61%;
+    left: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1058,6 +1063,9 @@ body {
   .shopbutton {
     display: none;
   }
+  #pgButton-4 h1{
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -1065,10 +1073,10 @@ body {
     width: 100%;
     height: fit-content;
   }
+
+
   .shopnow-container h1 {
-    font-size: 52.65px;
-    height: 96px;
-    line-height: 48px;
+    font-size: 70px;
   }
   .shopnow-content {
     flex-direction: column-reverse;
@@ -1124,6 +1132,7 @@ body {
   .right-text p {
     font-size: 19.49px;
     width: 85%;
+    margin-top: 15px;
   }
   .right-button {
     margin-top: 30px;
@@ -1136,7 +1145,7 @@ body {
   }
   .right-button button {
     padding: 12px 15px;
-    font-size: 25.82px;
+    font-size: 15px;
     border-radius: 38.18px;
   }
   .right-buy {
@@ -1148,6 +1157,10 @@ body {
   }
   .shopbutton {
     display: none;
+  }
+  #pgButton-4 h1{
+    position: relative;
+    top: 24px;
   }
 }
 
