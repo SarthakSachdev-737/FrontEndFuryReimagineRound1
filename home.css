@@ -111,6 +111,9 @@ body {
   #menu-home {
     display: contents;
   }
+  #hero-home{
+    width: 430px;
+  }
   #hero-home img {
     margin-left: 0;
     height: 100%;
