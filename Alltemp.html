@@ -13,23 +13,39 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <link rel="stylesheet" href="home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="learn.css" />
-    <link rel="stylesheet" href="shopnow.css" />
-
-
-    <title>Document</title>
+    <title>NVIDIA</title>
   </head>
   <body>
+    <div id="loader">
+      <div id="loaderContainer">
+        <div id="logoContainer">
+          <img src="resources/used asset/nvidia logo.png" alt="" />
+        </div>
+        <video
+          autoplay
+          muted
+          disablePictureInPicture
+          src="resources/used asset/singl_trap.mp4"
+          id="loaderVideo"
+        ></video>
+      </div>
+    </div>
     <div id="main">
       <div class="container-home">
         <nav id="nav-home">
-           <div id="logo-home"><img src="./nvidia hackathon/nvidia logo.png" alt="">
-         </div>
-           <div id="info-home">
+          <div id="logo-home">
+            <img src="./nvidia hackathon/nvidia logo.png" alt="" />
+          </div>
+          <div id="info-home">
             <ul class="ul-home">
               <li>Products</li>
               <li>Solutions</li>
@@ -37,27 +53,29 @@
               <li>About Us</li>
               <li>For you</li>
             </ul>
-           </div>
-           <div id="support-home">
+          </div>
+          <div id="support-home">
             <ul class="ul-home">
               <li>Shop</li>
               <li>Drivers</li>
               <li>Support</li>
             </ul>
-           </div>
-           <div id="icons-home">
+          </div>
+          <div id="icons-home">
             <ul class="ul-home">
               <li><i class="fa-solid fa-magnifying-glass"></i></li>
               <li><i class="fa-solid fa-user"></i></li>
               <li><i class="fa-solid fa-globe" id="globe-home"></i></li>
             </ul>
             <i class="fa-solid-home fa-bars-home" id="menu-home"></i>
-           </div>
+          </div>
         </nav>
         <div id="hero-home">
-          <div id="text-home"><h1>INTRODUCING <SPAN>NVIDIA RTX-4090</SPAN></h1></div>
+          <div id="text-home">
+            <h1>INTRODUCING <span>NVIDIA RTX-4090</span></h1>
+          </div>
           <p id="p-home">Where GPU power meets CPU powers.</p>
-          <img src="./nvidia hackathon/geforce-rtx-4090-100vp-d.jpg" alt="">
+          <img src="./nvidia hackathon/geforce-rtx-4090-100vp-d.jpg" alt="" />
           <button id="button-home">Learn More</button>
         </div>
       </div>
@@ -149,7 +167,6 @@
                 id="cardImg-4"
               />
             </div>
-
           </div>
           <button id="pgButton-3">
             <h1>Explore</h1>
@@ -185,6 +202,23 @@
               <div class="swiper-slide swiper-slide-3">
                 <div class="swiperImgContainer-3">
                   <img
+                    src="./resources/used asset/nvidia-studio.jpg"
+                    alt=""
+                    style="object-position: -90px"
+                  />
+                </div>
+                <div class="swiperTextContainer-3">
+                  <h1>NVIDIA STUDIO</h1>
+                  <h3>
+                    Studio is a platform designed to accelerate creative
+                    workflows with powerful hardware and software solutions.
+                  </h3>
+                  <button class="swiperButton-3">Learn More</button>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-3">
+                <div class="swiperImgContainer-3">
+                  <img
                     src="./resources/used asset/star-wars-outlaw-2560x1440-2-4k.jpeg"
                     alt=""
                   />
@@ -201,16 +235,35 @@
               <div class="swiper-slide swiper-slide-3">
                 <div class="swiperImgContainer-3">
                   <img
-                    src="./resources/used asset/nvidia-studio.jpg"
+                    src="./resources/used asset/geforce-gsync-hero-767x550-p.jpg"
                     alt=""
-                    style="object-position: -90px"
+                    style="object-position: -150px"
                   />
                 </div>
                 <div class="swiperTextContainer-3">
-                  <h1>NVIDIA STUDIO</h1>
+                  <h1>G-SYNC HERO</h1>
                   <h3>
-                    Studio is a platform designed to accelerate creative
-                    workflows with powerful hardware and software solutions.
+                    Step into the future of gaming with NVIDIA GeForce, where
+                    every frame is crafted for unparalleled performance and
+                    breathtaking visuals.
+                  </h3>
+                  <button class="swiperButton-3">Learn More</button>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-3">
+                <div class="swiperImgContainer-3">
+                  <img
+                    src="./resources/used asset/nvidia-encoder.jpg"
+                    alt=""
+                    style="object-position: -170px"
+                  />
+                </div>
+                <div class="swiperTextContainer-3">
+                  <h1>NVIDIA ENCODER</h1>
+                  <h3>
+                    Harness the NVIDIA Encoder for unmatched streaming quality
+                    and efficiency, ensuring smooth broadcasts with minimal
+                    impact on your gameplay.
                   </h3>
                   <button class="swiperButton-3">Learn More</button>
                 </div>
@@ -222,82 +275,112 @@
           </div>
         </div>
       </div>
-      <!-- <div class="container-shopnow">
-        <div class="header-shopnow">
-          <h1>SHOP <span>NOW</span></h1>
-        </div>
-        <div class="content-shopnow">
-          <div class="one-shopnow">
-            <div class="content1-shopnow">
-              <div id="first-shopnow">
-                <img
-                  src="./nvidia hackathon/geforce-gsync-most-realistic-image-quality-767x440-t.jpg"
-                  alt="image"
-                />
-                <div id="firstText-shopnow">
-                  <h5><span>DEFORCE G-SYNC LAPTOPS</span></h5>
+      <div class="shopnow-container">
+        <h1 class="header">SHOP <span>NOW</span></h1>
+        <div class="shopnow-content">
+          <div class="shopnow-left">
+            <div class="left-top">
+              <div class="top-one">
+                <div class="one-img">
+                  <img
+                    src="./nvidia hackathon/geforce-gsync-most-realistic-image-quality-767x440-t.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="one-text">
+                  <h5>GEFORCE G-SYNC LAPTOPS</h5>
                   <h1>LAPTOPS</h1>
                   <p>
-                    <span
-                      >GeForce laptops are equipped with powerful NVIDIA GeForce
-                      RTX GPUs, offering high performance for gaming.</span
-                    >
+                    GeForce laptops are equipped with powerful NVIDIA GeForce
+                    RTX GPUs, offering high performance for gaming.
                   </p>
+                  <div class="one-button">
+                    <button>
+                      LEARN MORE <img src="./Vector.png" alt="" />
+                    </button>
+                  </div>
+                  <div class="one-buy">
+                    <button>BUY <br />NOW</button>
+                  </div>
                 </div>
-                <div id="button-shopnow"><button>Learn More</button></div>
               </div>
-              <div id="second-shopnow">
-                <img
-                  src="./nvidia hackathon/nvidia-ai-on-rtx-bm-af360-p@2x.jpg"
-                  alt=""
-                />
-                <div id="secondText-shopnow">
-                  <h5><span>NVIDIA - RTX SUPER</span></h5>
+              <div class="top-two">
+                <div class="two-img">
+                  <img
+                    src="./nvidia hackathon/nvidia-ai-on-rtx-owned-web-module-bb580_440-l@2x.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="two-text">
+                  <h5>GEFORCE G-SYNC LAPTOPS</h5>
                   <h1>RTX</h1>
                   <p>
-                    <span
-                      >NVIDIA GeForce RTX Super series graphics cards deliver
-                      enhanced performance and efficiency with more cores.</span
-                    >
+                    NVIDIA GeForce RTX Super series graphics cards deliver
+                    enhanced performance and efficiency with more cores.
                   </p>
+                  <div class="one-button">
+                    <button>
+                      LEARN MORE <img src="./Vector.png" alt="" />
+                    </button>
+                  </div>
+                  <div class="one-buy">
+                    <button>BUY <br />NOW</button>
+                  </div>
                 </div>
-                <div id="button-shopnow"><button>Learn More</button></div>
               </div>
             </div>
-            <div class="content2-shopnow">
-              <div id="thirdText-shopnow">
-                <h5><span>GEFORCE G-SYNC LAPTOPS</span></h5>
+            <div class="left-bottom">
+              <div class="bottom-text">
+                <h5>GEFORCE G-SYNC LAPTOPS</h5>
                 <h1>LAPTOPS</h1>
                 <p>
-                  <span
-                    >GeForce laptops are equipped with powerful NVIDIA GeForce RTX
-                    GPUs, offering high performance for gaming.</span
-                  >
+                  GeForce laptops are equipped with powerful NVIDIA GeForce RTX
+                  GPUs, offering high performance for gaming.
                 </p>
-                <div id="button-shopnow"><button>Learn More</button></div>
+                <div class="one-button">
+                  <button>LEARN MORE <img src="./Vector.png" alt="" /></button>
+                </div>
               </div>
-              <img
-                src="./nvidia hackathon/geforce-broadcast-app.jpg"
-                alt=""
-              />
+              <div class="bottom-buy">
+                <button>BUY <br />NOW</button>
+              </div>
+              <div class="bottom-img">
+                <img
+                  src="./nvidia hackathon/geforce-broadcast-app.jpg"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
-          <div class="two-shopnow">
-            <div class="content3-shopnow">
+          <div class="shopnow-right">
+            <div class="right-img">
               <img
                 src="./nvidia hackathon/geforce-40-series-super-family-640-p@2x.jpg"
                 alt=""
               />
-              <div id="twoText-shopnow">
-                  <h5><span>GEFORCE RTX 40 Series</span></h5>
-                  <h1>GRAPHICS CARD</h1>
-                  <p><span>The NVIDIA RTX 4080 is a high-end graphics card offering top-tier performance for gaming and professional use. It features advanced ray-tracing, AI-enhanced graphics.</span></p>
-                  <div id="button-shopnow"><button>Learn More</button></div>
+            </div>
+            <div class="right-buy">
+              <button>BUY <br />NOW</button>
+            </div>
+            <div class="right-text">
+              <h5>GEFORCE RTX 40 SERIES</h5>
+              <h1>GRAPHICS CARD</h1>
+              <p>
+                The NVIDIA RTX 4080 is a high-end graphics card offering
+                top-tier performance for gaming and professional use. It
+                features advanced ray-tracing, AI-enhanced graphics.
+              </p>
+              <div class="right-button">
+                <button>LEARN MORE <img src="./Vector.png" alt="" /></button>
               </div>
             </div>
           </div>
         </div>
-      </div> -->
+        <button id="pgButton-4">
+          <h1>Explore</h1>
+          <img src="./resources/used asset/Arrow.png" alt="" />
+        </button>
+      </div>
       <div id="page5" class="page">
         <div class="pgContainer">
           <div id="page5Heading">
@@ -336,7 +419,10 @@
                   <p class="date">5 JUNE</p>
                   <h4>NVIDIA Broadcast Enhances Livestreaming</h4>
                   <p class="desc">
-                    Transform your livestreams and remote work setup with NVIDIA Broadcast. Experience crystal-clear audio, enhanced video quality, and AI-powered features. Elevate your online presence effortlessly.
+                    Transform your livestreams and remote work setup with NVIDIA
+                    Broadcast. Experience crystal-clear audio, enhanced video
+                    quality, and AI-powered features. Elevate your online
+                    presence effortlessly.
                   </p>
                   <h6>Read more...</h6>
                 </div>
@@ -349,10 +435,13 @@
                   />
                 </div>
                 <div class="swiperTextContainer-5">
-                  <p class="date">1 JUNE</p>
+                  <p class="date">7 JUNE</p>
                   <h4>NVIDIA Omniverse Revolutionizes 3D</h4>
                   <p class="desc">
-                    NVIDIA Omniverse transforms 3D collaboration and simulation with cutting-edge technology. Seamlessly connect tools, assets, and teams for real-time creative workflows. Elevate your projects with unprecedented speed and precision.
+                    NVIDIA Omniverse transforms 3D collaboration and simulation
+                    with cutting-edge technology. Seamlessly connect tools,
+                    assets, and teams for real-time creative workflows. Elevate
+                    your projects with unprecedented speed and precision.
                   </p>
                   <h6>Read more...</h6>
                 </div>
@@ -360,19 +449,22 @@
               <div class="swiper-slide swiper-slide-5">
                 <div class="swiperImgContainer-5">
                   <img
-                    src="./resources/used asset/GFN_Thursday-Village-Resident-Evil.jpg"
+                    src="./resources/used asset/gfn-thursday-6-20-nv-blog-1280x680-no-copy.jpg"
                     alt=""
                   />
                 </div>
                 <div class="swiperTextContainer-5">
-                  <p class="date">1 JUNE</p>
-                  <h4>GeForce NOW Unleashes ‘Resident Evil Village’</h4>
+                  <p class="date">10 JUNE</p>
+                  <h4>
+                    Interactive Drama Games: "As Duskl Falls" and "Tell Me Why"
+                  </h4>
                   <p class="desc">
-                    Prepare for a chilling experience as GeForce NOW brings the
-                    acclaimed horror game 'Resident Evil Village' to its
-                    streaming platform. Immerse yourself in high-stakes terror
-                    and breathtaking graphics from anywhere. Get ready to
-                    survive the village's nightmarish challenges
+                    Prepare for a captivating narrative Journey as GeForce NOW
+                    introduces the acclaimed Interactive drama games "As Dusk
+                    Falls" and "Tell Me Why" to its streaming platform. Dive
+                    into emotionally rich stories and stunning visuals from.
+                    anywhere. 139 ready to experlence these compeling tales
+                    like never before.
                   </p>
                   <h6>Read more...</h6>
                 </div>
@@ -380,23 +472,24 @@
               <div class="swiper-slide swiper-slide-5">
                 <div class="swiperImgContainer-5">
                   <img
-                    src="./resources/used asset/GFN_Thursday-Village-Resident-Evil.jpg"
+                    src="./resources/used asset/GFN_Thursday-Still_Wakes_The_Deep-842x421.jpg"
                     alt=""
                   />
                 </div>
                 <div class="swiperTextContainer-5">
-                  <p class="date">1 JUNE</p>
-                  <h4>GeForce NOW Unleashes ‘Resident Evil Village’</h4>
+                  <p class="date">18 JUNE</p>
+                  <h4>
+                    Depths of the Abyss: Exploring the Secrets of the Darkness
+                  </h4>
                   <p class="desc">
-                    Prepare for a chilling experience as GeForce NOW brings the
-                    acclaimed horror game 'Resident Evil Village' to its
-                    streaming platform. Immerse yourself in high-stakes terror
-                    and breathtaking graphics from anywhere. Get ready to
-                    survive the village's nightmarish challenges
+                    Prepare for a spine-tingling experience like never before
+                    with GeForce NOW's latest addition, "The Haunting of Hill
+                    House". Step into the eerie world of paranormal mysteries and
+                    psychological terror from any device.
                   </p>
                   <h6>Read more...</h6>
                 </div>
-              </div>              
+              </div>
             </div>
             <div id="pg5scrollBar">
               <div class="swiper-scrollbar"></div>
@@ -404,70 +497,83 @@
           </div>
         </div>
       </div>
-      <!-- <div class="container-learn">
-        <div id="image-box-learn">
-          <div id="text-learn">
-            <h1>WANT TO <br /><span>LEARN MORE?</span></h1>
-            <h2>Get answers to all your sales, support and queries.</h2>
-            <div id="button-learn"><button>CONTACT US</button></div>
+      <div class="learn-container">
+        <div class="learn">
+          <div class="learn-header">
+            <div class="head">
+              <h1>WANT TO <br /><span>LEARN MORE?</span></h1>
+            </div>
+            <div class="paragraph">
+              Get answers to your all sales,support and queries.
+            </div>
+            <div class="button"><button>CONTACT US</button></div>
           </div>
-          <div id="image-learn">
-            <img src="./Screenshot 2024-07-01 204138.png" alt="" />
+          <div class="learn-img">
+            <img
+              src="./Screenshot 2024-07-01 204138.png"
+              alt=""
+              class="laptop-img"
+            />
+            <img
+              src="./Screenshot 2024-07-05 031632.png"
+              alt=""
+              class="phone-img"
+            />
+          </div>
+        </div>
+        <div class="last-section">
+          <div class="products">
+            <div class="headings">
+              <h1>PRODUCTS</h1>
+              <h1>COMMUNITY <br />& NEWS</h1>
+              <h1>SUPPORT</h1>
+            </div>
+            <div class="lists">
+              <ul>
+                <li>20 Series Graphics card</li>
+                <li>10 Series Graphics card</li>
+                <li>16 Series Graphics card</li>
+                <li>40 Series Graphics card</li>
+                <li>Laptops</li>
+                <li>G-SYNC Monitors</li>
+                <li>Turing Architecture</li>
+              </ul>
+              <ul>
+                <li>20 Series Graphics card</li>
+                <li>10 Series Graphics card</li>
+                <li>16 Series Graphics card</li>
+                <li>40 Series Graphics card</li>
+                <li>Laptops</li>
+                <li>G-SYNC Monitors</li>
+                <li>Turing Architecture</li>
+              </ul>
+              <ul>
+                <li>20 Series Graphics card</li>
+                <li>10 Series Graphics card</li>
+                <li>16 Series Graphics card</li>
+                <li>40 Series Graphics card</li>
+                <li>Laptops</li>
+                <li>G-SYNC Monitors</li>
+                <li>Turing Architecture</li>
+              </ul>
+            </div>
+          </div>
+          <div class="signup">
+            <h1>SIGN UP FOR <br /><span>NVIDIA NEWS</span></h1>
+            <div id="button"><button>SUBSCRIBE!</button></div>
           </div>
         </div>
         <footer>
-          <div id="community-learn">
-            <div id="products-learn">
-              <div id="support-learn">
-                  <h3>PRODUCTS</h3>
-                  <h3>COMMUNITY <br>& NEWS</h3>
-                  <h3>SUPPORT</h3>
-              </div>
-              <hr id="hr1-learn">
-              <div id="lists-learn">
-              <ul>
-                  <li>20 Series Graphics card</li>
-                  <li>10 Series Graphics card</li>
-                  <li>16 Series Graphics card</li>
-                  <li>40 Series Graphics card</li>
-                  <li>Laptops</li>
-                  <li>G-Sync Monitors</li>
-                  <li>Turing Architecture</li>
-              </ul>
-              <ul>
-                  <li>Formus</li>
-                  <li>Latest News</li>
-                  <li>Tech Guides</li>
-                  <li>Contest Winners</li>
-                  <li>About Us</li>
-                  <li>Overviews</li>
-              </ul>
-              <ul>
-                  <li>Drivers</li>
-                  <li>Formus</li>
-                  <li>Technical support</li>
-                  <li>Purchase support</li>
-                  <li>Online support</li>
-              </ul>
+          <div class="left">COPYRIGHT @ 2024 NVIDIA</div>
+          <div class="right">
+            <ul>
+              <li>PRIVACY POLICY</li>
+              <li>LEGAL INFO</li>
+              <li>CONTACT US</li>
+            </ul>
           </div>
-            </div>
-            <div id="signup-learn">
-              <h1>SIGN UP FOR <BR><SPAN>NVIDIA NEWS.</SPAN></BR></h1><div>
-                  <div id="button-learn"><button>SUBSCRIBE!</button></div>
-          </div>
-        </footer id="footer-learn">
-        <hr id="hr2-learn">
-        <div id="copyright-learn">
-          <div id="left-learn">COPYRIGHT 2024 NVIDIA</div>
-          <div id="right-learn">
-             <UL>
-              <LI>PRIVACY POLICY</LI>
-             <LI>LEGAL INFO</LI>
-             <LI>CONTACT US</LI>
-          </UL>
-          </div>
-        </div>
-      </div> -->
+        </footer>
+      </div>  
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script
@@ -482,10 +588,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="home.js"></script>
     <script src="script.js"></script>
-    <script src="learn.js"></script>
-    <script src="shopnow.js"></script>
-
   </body>
 </html>
