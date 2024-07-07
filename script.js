@@ -120,7 +120,7 @@ function page2Animation() {
       trigger: "#page2",
       scroller: "body",
       // markers: true,
-      start: "top 35%",
+      start: "top 30%",
       end: "top 100%",
       scrub: 2,
       // pin:true,
