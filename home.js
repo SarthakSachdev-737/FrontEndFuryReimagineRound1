@@ -29,7 +29,7 @@ timeline.from("#hero-home img ", {
   x: -1000,
   duration: 1,
   opacity: 0,
-  ease: "power2.out",
+  ease: "power3.out",
 });
 
 timeline.from("#text-home", {
