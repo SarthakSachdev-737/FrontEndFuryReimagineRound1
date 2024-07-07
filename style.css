@@ -1098,6 +1098,16 @@ body {
     width: 90%;
     justify-content: space-between;
   }
+
+  .left-bottom{
+    width: 90%;
+    padding: 10px;
+  }
+
+  .top-one,.top-two{
+    height: 100%;
+  }
+
   .left-top h1,
   .left-bottom h1 {
     height: fit-content;
@@ -1157,10 +1167,6 @@ body {
   }
   .shopbutton {
     display: none;
-  }
-  #pgButton-4 h1{
-    position: relative;
-    top: 24px;
   }
 }
 
